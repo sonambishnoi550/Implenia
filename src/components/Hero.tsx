@@ -10,12 +10,12 @@ const Hero = () => {
         <div
             id="home"
             className="bg-center bg-cover bg-no-repeat relative pb-20 overflow-hidden"
-            style={{ backgroundImage: `url(/assets/images/png/hero-bg.png)` }}
+            style={{ backgroundImage: `url(/assets/images/webp/hero-bg.webp)` }}
         >
             <Header />
             <img
                 className="absolute md:top-[47%] top-[61%] lg:w-[516px] lg:h-[402px] md:size-[350px] size-[200px]"
-                src="/assets/images/png/dustbin.png"
+                src="/assets/images/webp/dustbin.webp"
                 alt="dustbin"
             />
             <div className="container max-w-[1140px] mx-auto">
