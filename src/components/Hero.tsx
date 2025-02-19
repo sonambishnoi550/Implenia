@@ -13,7 +13,7 @@ const Hero = () => {
             style={{ backgroundImage: `url(/assets/images/webp/hero-bg.webp)` }}
         >
             <Header />
-            <img
+            <img data-aos="fade-right"
                 className="absolute md:top-[47%] top-[61%] lg:w-[516px] lg:h-[402px] md:size-[350px] size-[200px]"
                 src="/assets/images/webp/dustbin.webp"
                 alt="dustbin"
