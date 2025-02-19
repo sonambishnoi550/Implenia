@@ -20,11 +20,21 @@ export default {
       },
       colors: {
         "dark-orange": "#EBA82C",
-        "red":"#FF132D",
+        "red": "#FF132D",
+        "light-black": "#1d1d1b",
       },
       fontSize: {
+        "customXsm": "10px",
         "customSm": "21px",
-        "customMd": "76px",
+        "customMd": "34px",
+        "custom2md": "44px",
+        "customLg": "49px",
+        "customXl": "76px",
+      },
+      lineHeight: {
+        "customSm": "21px",
+        "customMd": "48px",
+        "customLg": "80px"
       }
     },
   },
