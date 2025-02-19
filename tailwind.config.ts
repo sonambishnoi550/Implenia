@@ -34,6 +34,7 @@ export default {
       lineHeight: {
         "customSm": "21px",
         "customMd": "48px",
+        "custom2Md": "60px",
         "customLg": "80px"
       }
     },
