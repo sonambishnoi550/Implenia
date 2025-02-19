@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react';
-
+import CustomHeading from '@/components/common/CustomHeading'
 const Works = () => {
     const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
@@ -15,7 +15,7 @@ const Works = () => {
     return (
         <div id='community' className='bg-off-white lg:pt-[128px] lg:pb-[134px] md:py-20 py-12'>
             <div className="container">
-                <h2 className='text-black md:text-customLg text-customMd font-bold lg:pb-[64px] md:pb-10 pb-5 max-xl:text-center'>HOW IT WORKS</h2>
+                <CustomHeading text="HOW IT WORKS" myClass='lg:pb-[64px] md:pb-10 pb-5' />
                 <div className="relative lg:ml-[27px]">
                     {isVideoPlaying ? (
                         <video
@@ -27,7 +27,7 @@ const Works = () => {
                         />
                     ) : (
                         <img
-                            className='md:rounded-[25px] rounded-xl cursor-pointer w-full xl:max-w-[1064px] xl:h-[580px]'
+                            className='md:rounded-[25px] pointer-events-none rounded-xl cursor-pointer w-full xl:max-w-[1064px] xl:h-[580px]'
                             src="/assets/images/webp/works-image.webp"
                             alt="work"
                             onClick={handleImageClick}

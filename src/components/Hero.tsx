@@ -14,7 +14,7 @@ const Hero = () => {
         >
             <Header />
             <img data-aos="fade-right"
-                className="absolute  md:top-[47%] top-[61%] lg:w-[475px] lg:h-[402px] md:size-[350px] size-[200px]"
+                className="absolute  md:top-[47%] top-[61%] pointer-events-none lg:w-[475px] lg:h-[402px] md:size-[350px] size-[200px]"
                 src="/assets/images/webp/dustbin.webp"
                 alt="dustbin"
             />
@@ -33,7 +33,7 @@ const Hero = () => {
                 </div>
                 <CustomButton
                     text="Bring your idea to life!"
-                    myClass="!mt-[25px] md:!mb-[120px] !mb-[100px] !ml-[52px] !border-white max-xl:!flex max-xl:!mx-auto !text-white hover:!bg-white hover:!text-black !px-[47px] h-[67px] !items-center max-sm:!px-5"
+                    myClass="!mt-[25px] md:!mb-[120px] !mb-[100px] !ml-[52px] !border-white max-xl:!flex max-xl:!mx-auto !text-white hover:!bg-white hover:!text-black !px-[47px] md:h-[67px] !items-center max-sm:!px-5"
                 />
             </div>
         </div>
