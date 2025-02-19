@@ -18,11 +18,9 @@ export default {
           xl: "1140px",
         },
       },
-      fontFamily: {
-        "source": '"Source Sans 3", "sans-serif"',
-      },
       colors: {
         "dark-orange": "#EBA82C",
+        "red":"#FF132D",
       },
       fontSize: {
         "customSm": "21px",
