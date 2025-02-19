@@ -8,6 +8,10 @@ const Works = () => {
         setIsVideoPlaying(true);
     };
 
+    const handleVideoClick = () => {
+        setIsVideoPlaying(false);
+    };
+
     return (
         <div id='community' className='bg-[#F5F5F5] lg:pt-[128px] lg:pb-[134px] md:py-20 py-12'>
             <div className="container">
@@ -19,6 +23,7 @@ const Works = () => {
                             src="https://www.w3schools.com/html/mov_bbb.mp4"
                             controls
                             autoPlay
+                            onClick={handleVideoClick}
                         />
                     ) : (
                         <img
