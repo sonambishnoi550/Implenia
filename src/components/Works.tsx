@@ -23,11 +23,12 @@ const Works = () => {
                             src="https://www.w3schools.com/html/mov_bbb.mp4"
                             controls
                             autoPlay
+
                             onClick={handleVideoClick}
                         />
                     ) : (
                         <img
-                            className='md:rounded-[25px] pointer-events-none rounded-xl cursor-pointer w-full xl:max-w-[1064px] xl:h-[580px]'
+                            className='md:rounded-[25px] rounded-xl cursor-pointer w-full xl:max-w-[1064px] xl:h-[580px]'
                             src="/assets/images/webp/works-image.webp"
                             alt="work"
                             onClick={handleImageClick}
