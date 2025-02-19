@@ -22,7 +22,7 @@ const Works = () => {
                         />
                     ) : (
                         <img
-                            className='md:rounded-[25px] rounded-xl cursor-pointer w-full'
+                            className='md:rounded-[25px] rounded-xl cursor-pointer w-full xl:max-w-[1064px] xl:h-[580px]'
                             src="/assets/images/png/works-image.png"
                             alt="work"
                             onClick={handleImageClick}

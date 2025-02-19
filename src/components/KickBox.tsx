@@ -2,7 +2,7 @@ import React from 'react'
 import CustomButton  from './common/CustomButton'
 const KickBox = () => {
     return (
-        <div className='lg:pt-[134px] lg:pb-[128px] md:py-20 py-12'>
+        <div id='story' className='lg:pt-[134px] lg:pb-[128px] md:py-20 py-12'>
             <div className="container">
                 <h2 className='text-black font-bold md:text-customLg text-customMd'>IMPLENIA KICKBOX</h2>
                 <p className='max-w-[1090px] text-left font-light md:text-customSm text-base leading-[27px] lg:pt-4 pt-2 text-light-black'>Since 2019, our Kickbox Intrapreneurship Program has been inspiring employees across all divisions to turn their ideas into impactful solutions. From validating ideas (RedBox) to piloting projects (BlueBox) and driving implementation (GoldBox), Kickbox provides the tools and support to shape the future of Implenia. Become an intrapreneur yourself and bring your idea to life!</p>

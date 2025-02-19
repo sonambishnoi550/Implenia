@@ -5,7 +5,7 @@ export const HEADER_LIST = [
     },
     {
         title: "Stories",
-        link: "#stories",
+        link: "#story",
     },
     {
         title: "Community",
