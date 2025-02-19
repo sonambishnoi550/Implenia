@@ -11,7 +11,7 @@ const Works = () => {
     return (
         <div id='community' className='bg-[#F5F5F5] lg:pt-[128px] lg:pb-[134px] md:py-20 py-12'>
             <div className="container">
-                <h2 className='text-black md:text-customLg text-customMd font-bold lg:pb-[64px] md:pb-10 pb-5 max-lg:text-center'>HOW IT WORKS</h2>
+                <h2 className='text-black md:text-customLg text-customMd font-bold lg:pb-[64px] md:pb-10 pb-5 max-xl:text-center'>HOW IT WORKS</h2>
                 <div className="relative lg:ml-[27px]">
                     {isVideoPlaying ? (
                         <video

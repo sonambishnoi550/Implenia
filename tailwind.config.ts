@@ -30,6 +30,7 @@ export default {
         "custom2md": "44px",
         "customLg": "49px",
         "customXl": "76px",
+        "custom2Xl": "80px",
       },
       lineHeight: {
         "customSm": "21px",
