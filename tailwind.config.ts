@@ -18,10 +18,16 @@ export default {
           xl: "1140px",
         },
       },
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        "source": '"Source Sans 3", "sans-serif"',
       },
+      colors: {
+        "dark-orange": "#EBA82C",
+      },
+      fontSize: {
+        "customSm": "21px",
+        "customMd": "76px",
+      }
     },
   },
   plugins: [],
