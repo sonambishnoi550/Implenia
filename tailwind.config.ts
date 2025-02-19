@@ -19,9 +19,11 @@ export default {
         },
       },
       colors: {
-        "dark-orange": "#EBA82C",
+        "dark-orange": "#FEBE32",
+        "orange":"#F3B72C",
         "red": "#FF132D",
         "light-black": "#1d1d1b",
+        "off-white":"#F5F5F5"
       },
       fontSize: {
         "customXsm": "10px",

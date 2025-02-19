@@ -6,3 +6,8 @@ body,html{
     font-family: 'Source Sans 3',sans-serif;
     scroll-behavior: smooth;
 }
+@media (max-width: 639.98px) {
+    .hero-bg-mobile {
+        background-position: right -100px center;
+    }
+}

@@ -13,7 +13,7 @@ const Works = () => {
     };
 
     return (
-        <div id='community' className='bg-[#F5F5F5] lg:pt-[128px] lg:pb-[134px] md:py-20 py-12'>
+        <div id='community' className='bg-off-white lg:pt-[128px] lg:pb-[134px] md:py-20 py-12'>
             <div className="container">
                 <h2 className='text-black md:text-customLg text-customMd font-bold lg:pb-[64px] md:pb-10 pb-5 max-xl:text-center'>HOW IT WORKS</h2>
                 <div className="relative lg:ml-[27px]">
@@ -33,7 +33,7 @@ const Works = () => {
                             onClick={handleImageClick}
                         />
                     )}
-                    <div className='bg-dark-orange lg:max-w-[372px] md:max-w-[244px] max-w-[150px] md:px-2 px-1 lg:py-[22px] md:py-3 py-1 absolute md:top-[5%] top-[2%] left-[2%] md:left-[3%] z-10'>
+                    <div className='bg-orange lg:max-w-[372px] md:max-w-[244px] max-w-[150px] md:px-2 px-1 lg:py-[22px] md:py-3 py-1 absolute md:top-[5%] top-[2%] left-[2%] md:left-[3%] z-10'>
                         <p className='max-w-[372px] font-bold lg:text-customSm md:leading-customSm leading-3 md:text-base text-customXsm text-center'>
                             VIDEO CAN BE EXCHANGED FOR CAMPAIGNS.
                         </p>

@@ -9,19 +9,19 @@ const Hero = () => {
     return (
         <div
             id="home"
-            className="bg-center bg-cover bg-no-repeat relative pb-20 overflow-hidden"
+            className="bg-center bg-cover hero-bg-mobile bg-no-repeat relative pb-20 overflow-hidden"
             style={{ backgroundImage: `url(/assets/images/webp/hero-bg.webp)` }}
         >
             <Header />
             <img data-aos="fade-right"
-                className="absolute md:top-[47%] top-[61%] lg:w-[516px] lg:h-[402px] md:size-[350px] size-[200px]"
+                className="absolute  md:top-[47%] top-[61%] lg:w-[475px] lg:h-[402px] md:size-[350px] size-[200px]"
                 src="/assets/images/webp/dustbin.webp"
                 alt="dustbin"
             />
             <div className="container max-w-[1140px] mx-auto">
                 <div className="flex flex-col max-xl:justify-center max-xl:items-center lg:pt-[350px] md:pt-[290px] pt-[145px] xl:pl-14 relative z-20">
                     <h2
-                        className="font-bold text-customSm [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)] text-white text-left"
+                        className="font-bold max-sm:pt-5 text-customSm [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)] text-white text-left"
                     >
                         Shape the future of Implenia!
                     </h2>
