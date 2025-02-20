@@ -13,11 +13,11 @@ const page = () => {
     });
   }, [])
   return (
-    <div>
+    <>
       <Hero/>
       <KickBox />
       <Works/>
-    </div>
+    </>
   )
 }
 

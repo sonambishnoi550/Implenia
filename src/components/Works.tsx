@@ -3,29 +3,17 @@ import React, { useState } from 'react';
 import CustomHeading from '@/components/common/CustomHeading'
 const Works = () => {
     const [isVideoPlaying, setIsVideoPlaying] = useState(false);
-
     const handleImageClick = () => {
         setIsVideoPlaying(true);
-    };
-
-    const handleVideoClick = () => {
-        setIsVideoPlaying(false);
     };
 
     return (
         <div id='community' className='bg-off-white lg:pt-[128px] lg:pb-[134px] md:py-20 py-12'>
             <div className="container">
                 <CustomHeading text="HOW IT WORKS" myClass='lg:pb-[64px] md:pb-10 pb-5' />
-                <div className="relative lg:ml-[27px]">
+                <div className="relative max-w-[1064px] xl:ml-[27px] xl:h-[580px] lg:h-[540px] md:h-[400px] sm:h-[255px] h-[186px] md:rounded-[25px] rounded-xl overflow-hidden">
                     {isVideoPlaying ? (
-                        <video
-                            className='md:rounded-[25px] rounded-xl w-full'
-                            src="https://www.w3schools.com/html/mov_bbb.mp4"
-                            controls
-                            autoPlay
-
-                            onClick={handleVideoClick}
-                        />
+                        <iframe className='md:rounded-[25px] rounded-xl w-full h-full ' src="https://www.youtube.com/embed/nogh434ykF0?autoplay=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                     ) : (
                         <img
                             className='md:rounded-[25px] rounded-xl cursor-pointer w-full xl:max-w-[1064px] xl:h-[580px]'
