@@ -3,7 +3,7 @@ import React from "react";
 import "aos/dist/aos.css";
 import Header from "./common/Header";
 import CustomButton from "@/components/common/CustomButton";
-
+import Image from "next/image";
 const Hero = () => {
 
     return (
@@ -13,18 +13,16 @@ const Hero = () => {
             style={{ backgroundImage: `url(/assets/images/webp/hero-bg.webp)` }}
         >
             <Header />
-            <img data-aos="fade-right"
-                className="absolute  md:top-[53%] top-[58%] pointer-events-none lg:w-[475px] lg:h-[402px] md:size-[350px] size-[170px]"
+            <Image className="absolute  lg:top-[44%] md:top-[38%] top-[58%] pointer-events-none md:size-[450px] size-[170px]"
                 src="/assets/images/webp/dustbin.webp"
-                alt="dustbin"
-            />
+                alt="dustbin" width={430} height={350} />
             <div className="container max-w-[1140px] mx-auto">
-                <div className="flex flex-col max-xl:justify-center max-xl:items-center lg:pt-[350px] md:pt-[290px] pt-[67px] xl:pl-14 relative z-20">
-                    <h2
+                <div className="flex flex-col max-xl:justify-center max-xl:items-center lg:pt-[197px] md:pt-[120px] pt-[67px] xl:pl-14 relative z-20">
+                    <p
                         className="font-bold max-sm:pt-5 text-customSm [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)] text-white text-left"
                     >
                         Shape the future of Implenia!
-                    </h2>
+                    </p>
                     <h1
                         className="relative lg:text-customXl md:text-5xl text-custom2md sm:leading-custom2Md leading-customMd [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)] max-xl:text-center font-bold pt-[15px] text-white lg:max-w-[700px] max-w-[450px]"
                     >

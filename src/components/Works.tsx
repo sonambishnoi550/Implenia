@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import CustomHeading from '@/components/common/CustomHeading'
+import Image from 'next/image';
 const Works = () => {
     const [isVideoPlaying, setIsVideoPlaying] = useState(false);
     const handleImageClick = () => {
@@ -15,12 +16,12 @@ const Works = () => {
                     {isVideoPlaying ? (
                         <iframe className='md:rounded-[25px] rounded-xl w-full h-full ' src="https://www.youtube.com/embed/nogh434ykF0?autoplay=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                     ) : (
-                        <img
-                            className='md:rounded-[25px] rounded-xl cursor-pointer w-full xl:max-w-[1064px] xl:h-[580px]'
+                            <Image className='md:rounded-[25px] rounded-xl cursor-pointer w-full xl:max-w-[1064px] xl:h-[580px]'
                             src="/assets/images/webp/works-image.webp"
-                            alt="work"
-                            onClick={handleImageClick}
-                        />
+                                alt="work"
+                                width={1064}
+                                height={580}
+                            onClick={handleImageClick} />
                     )}
                     <div className='bg-orange lg:max-w-[372px] md:max-w-[244px] max-w-[150px] md:px-2 px-1 lg:py-[22px] md:py-3 py-1 absolute md:top-[5%] top-[2%] left-[2%] md:left-[3%] z-10'>
                         <p className='max-w-[372px] font-bold lg:text-customSm md:leading-customSm leading-3 md:text-base text-customXsm text-center'>

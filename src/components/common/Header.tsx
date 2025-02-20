@@ -1,7 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { HEADER_LIST } from "@/utils/helper";
-
+import Link from "next/link";
+import Image from "next/image";
 interface HeaderItem {
     title: string;
     link: string;
@@ -13,13 +14,11 @@ const Header = () => {
     return (
         <div id="navbar" className="bg-white z-40 w-full ">
             <div className="container max-w-[1160px] mx-auto  max-xl:px-[16px] flex items-center justify-between md:py-[18.5px] py-[5px]">
-                <a href="/">
-                    <img
-                        src="/assets/images/webp/logo.webp"
+                <Link href="/">
+                    <Image src="/assets/images/webp/logo.webp"
                         alt="logo"
-                        className="lg:size-[93px] md:size-[64px] size-10 pointer-events-none"
-                    />
-                </a>
+                        className="lg:size-[93px] md:size-[64px] size-10 pointer-events-none" width={93} height={93}/>
+                </Link>
                 <ul className="flex items-center gap-[38px] max-md:hidden">
                     {HEADER_LIST.map((item: HeaderItem, i: number) => (
                         <li key={i}>

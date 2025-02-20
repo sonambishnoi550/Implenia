@@ -5,6 +5,8 @@ import Works from '@/components/Works'
 import React, { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Process from '@/components/Process'
+import Stories from '@/components/Stories'
 
 const page = () => {
   useEffect(() => {
@@ -16,7 +18,9 @@ const page = () => {
     <>
       <Hero/>
       <KickBox />
-      <Works/>
+      <Works />
+      <Process />
+      <Stories/>
     </>
   )
 }
