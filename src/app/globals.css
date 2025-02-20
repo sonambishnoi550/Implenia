@@ -6,6 +6,32 @@ body,html{
     font-family: 'Source Sans 3',sans-serif;
     scroll-behavior: smooth;
 }
+.swiper-button-prev,
+.swiper-button-next {
+    color: black !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: black !important;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    top: 93% !important;
+}
+
+@media (max-width: 998.99px) {
+    .swiper-button-next:after {
+        display: none !important;
+    }
+
+    .swiper-button-prev:after {
+        display: none !important;
+    }
+
+}
 @media (max-width: 639.98px) {
     .hero-bg-mobile {
         background-position: right -100px center;
