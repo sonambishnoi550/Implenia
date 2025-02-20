@@ -7,6 +7,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Process from '@/components/Process'
 import Stories from '@/components/Stories'
+import Community from '@/components/Community'
 
 const page = () => {
   useEffect(() => {
@@ -20,6 +21,7 @@ const page = () => {
       <KickBox />
       <Works />
       <Process />
+      <Community/>
       <Stories/>
     </>
   )

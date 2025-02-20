@@ -10,7 +10,10 @@ interface HeaderItem {
 
 const Header = () => {
     const [open, setOpen] = useState<boolean>(false);
-
+    const [Active, setActive] = useState<number | null>(null);
+    function clickHandler(i: number) {
+        setActive(i);
+    }
     return (
         <div id="navbar" className="bg-white z-40 w-full ">
             <div className="container max-w-[1160px] mx-auto  max-xl:px-[16px] flex items-center justify-between md:py-[18.5px] py-[5px]">
@@ -22,12 +25,13 @@ const Header = () => {
                 <ul className="flex items-center gap-[38px] max-md:hidden">
                     {HEADER_LIST.map((item: HeaderItem, i: number) => (
                         <li key={i}>
-                            <a
+                            <Link onClick={() => clickHandler(i)}
                                 href={item.link}
-                                className="font-bold pb-[3px] text-black text-base hover:text-dark-orange transition-all duration-300"
+                                className={`font-bold pb-[3px] text-black text-base hover:text-dark-orange transition-all duration-300  ${Active === i ? "text-dark-orange" : ""
+                                    }`}
                             >
                                 {item.title}
-                            </a>
+                            </Link>
                         </li>
                     ))}
                 </ul>

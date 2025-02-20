@@ -25,11 +25,13 @@ export default {
         "light-black": "#1d1d1b",
         "off-white": "#F5F5F5",
         "blue": "#009FE3",
-        "yellow":" #FEBE32"
+        "yellow": " #FEBE32",
+        "dark-grey": "#8F9090"
       },
       fontSize: {
         "custom-xsm": "10px",
         "custom-sm": "21px",
+        "custom-2sm": "32px",
         "custom-md": "34px",
         "custom-xmd": "35px",
         "custom-2md": "44px",
