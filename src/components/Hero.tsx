@@ -9,12 +9,12 @@ const Hero = () => {
     return (
         <div
             id="home"
-            className="bg-center bg-cover hero-bg-mobile bg-no-repeat relative md:pb-20 pb-5 overflow-hidden"
+            className="bg-center bg-cover hero-bg-mobile bg-no-repeat relative pb-20 overflow-hidden"
             style={{ backgroundImage: `url(/assets/images/webp/hero-bg.webp)` }}
         >
             <Header />
             <img data-aos="fade-right"
-                className="absolute  md:top-[53%] top-[56%] pointer-events-none lg:w-[475px] lg:h-[402px] md:size-[350px] size-[170px]"
+                className="absolute  md:top-[53%] top-[58%] pointer-events-none lg:w-[475px] lg:h-[402px] md:size-[350px] size-[170px]"
                 src="/assets/images/webp/dustbin.webp"
                 alt="dustbin"
             />
@@ -33,7 +33,7 @@ const Hero = () => {
                 </div>
                 <CustomButton
                     text="Bring your idea to life!"
-                    myClass="!mt-[25px] md:!mb-[120px] !mb-[100px] !ml-[52px] !border-white max-xl:!flex max-xl:!mx-auto !text-white hover:!bg-white hover:!text-black !px-[47px] md:h-[67px] !items-center max-sm:!px-5"
+                    myClass="!mt-[25px] md:!mb-[120px] !ml-[52px] !border-white max-xl:!flex max-xl:!mx-auto !text-white hover:!bg-white hover:!text-black !px-[47px] md:h-[67px] !items-center max-sm:!px-5"
                 />
             </div>
         </div>
