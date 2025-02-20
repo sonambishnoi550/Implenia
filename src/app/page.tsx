@@ -8,6 +8,7 @@ import 'aos/dist/aos.css'
 import Process from '@/components/Process'
 import Stories from '@/components/Stories'
 import Community from '@/components/Community'
+import Faq from '@/components/Faq'
 
 const page = () => {
   useEffect(() => {
@@ -22,7 +23,8 @@ const page = () => {
       <Works />
       <Process />
       <Community/>
-      <Stories/>
+      <Stories />
+      <Faq/>
     </>
   )
 }

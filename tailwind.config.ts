@@ -26,7 +26,8 @@ export default {
         "off-white": "#F5F5F5",
         "blue": "#009FE3",
         "yellow": " #FEBE32",
-        "dark-grey": "#8F9090"
+        "dark-grey": "#8F9090",
+        "gray":"#9DA1A2"
       },
       fontSize: {
         "custom-xsm": "10px",
