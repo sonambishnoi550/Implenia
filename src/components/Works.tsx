@@ -24,10 +24,10 @@ const Works = () => {
                             onClick={handleImageClick} />
                     )}
                     <div className='bg-orange lg:max-w-[372px] md:max-w-[244px] max-w-[150px] md:px-2 px-1 lg:py-[22px] md:py-3 py-1 absolute md:top-[5%] top-[2%] left-[2%] md:left-[3%] z-10'>
-                        <p className='max-w-[372px] font-bold lg:text-customSm md:leading-customSm leading-3 md:text-base text-customXsm text-center'>
+                        <p className='max-w-[372px] font-bold lg:text-custom-sm md:leading-custom-sm leading-3 md:text-base text-custom-xsm text-center'>
                             VIDEO CAN BE EXCHANGED FOR CAMPAIGNS.
                         </p>
-                        <p className='font-bold lg:text-customSm md:text-base md:leading-customSm leading-3 text-customXsm max-w-[300px] mx-auto text-center lg:pt-4 md:pt-2 pt-1'>
+                        <p className='font-bold lg:text-custom-sm md:text-base md:leading-custom-sm leading-3 text-custom-xsm max-w-[300px] mx-auto text-center lg:pt-4 md:pt-2 pt-1'>
                             -Title: Name of Campaign <br /> -Button: Join the campaign!
                         </p>
                     </div>

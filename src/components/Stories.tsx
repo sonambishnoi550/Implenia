@@ -13,7 +13,7 @@ const Stories = () => {
             {STORIES_DATA.map((story, index) => (
               <div key={index} className='border border-black rounded-[28px] xl:max-w-[323px] md:max-w-[308px] max-w-[278px]'>
                 <Image className='pointer-events-none' src={story.image} alt={story.alt} width={323} height={207} />
-                <h4 className='font-semibold md:text-customXmd text-3xl md:leading-customXsm leading-8 md:pl-[26px] pl-4 md:pt-[51px] pt-8 md:pb-[61px] pb-10'>
+                <h4 className='font-semibold md:text-custom-xmd text-3xl md:leading-custom-xsm leading-8 md:pl-[26px] pl-4 md:pt-[51px] pt-8 md:pb-[61px] pb-10'>
                   {story.title}
                 </h4>
               </div>

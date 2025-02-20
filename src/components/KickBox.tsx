@@ -8,14 +8,14 @@ import CustomHeading from '@/components/common/CustomHeading'
 const KickBox = () => {
     const [count, setCount] = useState(false);
     const { ref } = useInView({
-        triggerOnce: false,
+        triggerOnce: true,
         onChange: (inView) => setCount(inView),
     });
     return (
         <div id='story' className='lg:pt-[134px] lg:pb-[128px] md:py-20 py-12'>
             <div className="container max-w-[1140px] mx-auto px-4">
                 <CustomHeading text="IMPLENIA KICKBOX"/>
-                <p className='max-w-[1090px] text-left font-light md:text-customSm text-base leading-custom2Sm lg:pt-4 pt-2 text-light-black max-xl:text-center'>
+                <p className='max-w-[1090px] text-left font-light md:text-custom-sm text-base leading-custom2Sm lg:pt-4 pt-2 text-light-black max-xl:text-center'>
                     Since 2019, our Kickbox Intrapreneurship Program has been inspiring employees across all divisions to turn their ideas into impactful solutions. From validating ideas (RedBox) to piloting projects (BlueBox) and driving implementation (GoldBox), Kickbox provides the tools and support to shape the future of Implenia. Become an intrapreneur yourself and bring your idea to life!
                 </p>
                 <div className="flex flex-wrap max-xl:justify-center justify-between xl:gap-[92px] md:gap-[67px] gap-[35px] pt-10 items-center">
@@ -29,7 +29,7 @@ const KickBox = () => {
                                 className={`flex flex-col justify-center items-center ${index === 0 ? "md:mr-[71px]" : index === 1 && "md:mr-[54px]"
                                     }`}
                             >
-                                <h3 className="lg:text-custom2Xl md:text-7xl text-5xl font-normal text-dark-orange max-sm:text-center tracking-[-0.66px] flex items-center">
+                                <h3 className="lg:text-custom-2xl md:text-7xl text-5xl font-normal text-dark-orange max-sm:text-center tracking-[-0.66px] flex items-center">
                                     <span className="text-inherit relative -top-[5px]">+</span>
                                     <CountUp
                                         start={0}
@@ -47,7 +47,7 @@ const KickBox = () => {
                                 </h3>
 
 
-                                <p className="font-bold md:text-customSm text-lg whitespace-nowrap">
+                                <p className="font-bold md:text-custom-sm text-lg whitespace-nowrap">
                                     {item.label}
                                 </p>
                             </div>

@@ -8,7 +8,7 @@ const Process = () => {
     <div className='lg:pt-[129px] lg:pb-[144px] md:py-20 py-12'>
       <div className="container max-w-[1140px] mx-auto">
         <CustomHeading text="KICKBOX PROCESS" />
-        <p className='font-light text-customSm leading-custom2Sm text-light-black max-w-[1090px] tracking-tighter pt-[17px]'>
+        <p className='font-light text-custom-sm leading-custom-2sm text-light-black max-w-[1090px] tracking-tighter pt-[17px]'>
           The Kickbox program at Implenia guides participants through three key phases to turn their ideas into impactful solutions:
           1. RedBox for validation, 2. BlueBox for piloting, and 3. GoldBox for implementation. To progress through each phase, you’ll work to continuously optimize your idea and demonstrate its potential to internal Implenia sponsors.
         </p>
@@ -23,13 +23,13 @@ const Process = () => {
                     : index === 1
                       ? "text-blue"
                       : "text-yellow"
-                    } font-semibold text-[21px] max-sm:text-lg leading-[21px]`}
+                    } font-semibold text-custom-sm max-sm:text-lg leading-custom-sm`}
                 >
                   {phase.stage}
                 </p>
-                <h4 className='font-semibold text-customXmd leading-customXsm pb-4'>{phase.title}</h4>
-                <p className='font-light md:text-customSm text-base leading-custom2Sm text-light-black sm:max-w-[277px] tracking-tighter'>{phase.description}</p>
-                <p className='font-light md:text-customSm text-base leading-custom2Sm text-light-black sm:max-w-[277px] md:pt-6 pt-3'>
+                <h4 className='font-semibold text-custom-xmd leading-custom-xsm pb-4'>{phase.title}</h4>
+                <p className='font-light md:text-custom-sm text-base leading-custom-2sm text-light-black sm:max-w-[277px] tracking-tighter'>{phase.description}</p>
+                <p className='font-light md:text-custom-sm text-base leading-custom-2sm text-light-black sm:max-w-[277px] md:pt-6 pt-3'>
                   {phase.duration}<br />
                   {phase.budget}
                 </p>

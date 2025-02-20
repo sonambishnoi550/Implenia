@@ -19,12 +19,12 @@ const Hero = () => {
             <div className="container max-w-[1140px] mx-auto">
                 <div className="flex flex-col max-xl:justify-center max-xl:items-center lg:pt-[197px] md:pt-[120px] pt-[67px] xl:pl-14 relative z-20">
                     <p
-                        className="font-bold max-sm:pt-5 text-customSm [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)] text-white text-left"
+                        className="font-bold max-sm:pt-5 text-custom-sm [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)] text-white text-left"
                     >
                         Shape the future of Implenia!
                     </p>
                     <h1
-                        className="relative lg:text-customXl md:text-5xl text-custom2md sm:leading-custom2Md leading-customMd [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)] max-xl:text-center font-bold pt-[15px] text-white lg:max-w-[700px] max-w-[450px]"
+                        className="relative lg:text-custom-xl md:text-5xl text-custom-2md sm:leading-custom-2md leading-custom-md [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)] max-xl:text-center font-bold pt-[15px] text-white lg:max-w-[700px] max-w-[450px]"
                     >
                         WE ARE LOOKING FOR YOUR IDEA
                     </h1>

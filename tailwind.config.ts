@@ -28,22 +28,22 @@ export default {
         "yellow":" #FEBE32"
       },
       fontSize: {
-        "customXsm": "10px",
-        "customSm": "21px",
-        "customMd": "34px",
-        "customXmd": "35px",
-        "custom2md": "44px",
-        "customLg": "49px",
-        "customXl": "76px",
-        "custom2Xl": "80px",
+        "custom-xsm": "10px",
+        "custom-sm": "21px",
+        "custom-md": "34px",
+        "custom-xmd": "35px",
+        "custom-2md": "44px",
+        "custom-lg": "49px",
+        "custom-xl": "76px",
+        "custom-2xl": "80px",
       },
       lineHeight: {
-        "customSm": "21px",
-        "custom2Sm": "27px",
-        "customXsm": "44px",
-        "customMd": "48px",
-        "custom2Md": "60px",
-        "customLg": "80px"
+        "custom-sm": "21px",
+        "custom-2sm": "27px",
+        "custom-xsm": "44px",
+        "custom-md": "48px",
+        "custom-2md": "60px",
+        "custom-lg": "80px"
       }
     },
   },
