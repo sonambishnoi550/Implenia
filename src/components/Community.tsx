@@ -36,10 +36,10 @@ const Community = () => {
                         {SLIDER_DATA.map((testimonial, index) => (
                             <SwiperSlide key={index} className="flex flex-col items-center max-lg:pb-9">
                                 <span className="text-orange md:text-custom-3xl text-custom-md">&ldquo;</span>
-                                <p className="md:text-customXmd text-2xl font-medium text-black leading-customXmd -mt-12 max-w-[788px] text-center mx-auto ">
+                                <p className="md:text-custom-2sm text-2xl font-medium text-black leading-customXmd -mt-12 max-w-[788px] text-center mx-auto ">
                                     {testimonial.description}
                                 </p>
-                                <div className="flex items-center mt-10 md:ml-[236px] ml-10 ">
+                                <div className="flex items-center mt-10 md:ml-[236px] ml-10">
                                     <Image
                                         src={testimonial.image}
                                         alt={testimonial.name}
@@ -48,10 +48,10 @@ const Community = () => {
                                         className="rounded-full max-sm:size-16"
                                     />
                                     <div className="ml-4 text-left">
-                                        <p className="text-dark-grey md:text-customSm text-base leading-customSm">
+                                        <p className="text-dark-grey md:text-custom-sm text-base leading-custom-sm">
                                             {testimonial.role}
                                         </p>
-                                        <p className="font-semibold text-black md:text-customSm text-base leading-customSm">
+                                        <p className="font-semibold text-black md:text-custom-sm text-base leading-custom-sm">
                                             {testimonial.name}
                                         </p>
                                     </div>
