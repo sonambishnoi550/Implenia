@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { HEADER_LIST } from "@/utils/helper";
 
 interface HeaderItem {
@@ -10,12 +10,8 @@ interface HeaderItem {
 const Header = () => {
     const [open, setOpen] = useState<boolean>(false);
 
-    useEffect(() => {
-        document.body.style.overflow = open ? "hidden" : "auto";
-    }, [open]);
-
     return (
-        <div id="navbar" className="bg-white z-40 fixed top-0 left-0 w-full ">
+        <div id="navbar" className="bg-white z-40 w-full ">
             <div className="container max-w-[1160px] mx-auto  max-xl:px-[16px] flex items-center justify-between md:py-[18.5px] py-[5px]">
                 <a href="/">
                     <img
@@ -29,7 +25,7 @@ const Header = () => {
                         <li key={i}>
                             <a
                                 href={item.link}
-                                className="font-bold font-source pb-[3px] text-black text-base hover:text-dark-orange transition-all duration-300"
+                                className="font-bold pb-[3px] text-black text-base hover:text-dark-orange transition-all duration-300"
                             >
                                 {item.title}
                             </a>
@@ -63,7 +59,7 @@ const Header = () => {
                         key={i}
                         onClick={() => setOpen(false)}
                         href={item.link}
-                        className="font-bold font-source text-base text-black"
+                        className="font-bold text-base text-black"
                     >
                         {item.title}
                     </a>

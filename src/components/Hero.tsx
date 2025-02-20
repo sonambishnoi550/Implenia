@@ -14,7 +14,7 @@ const Hero = () => {
         >
             <Header />
             <img data-aos="fade-right"
-                className="absolute  md:top-[47%] top-[61%] pointer-events-none lg:w-[475px] lg:h-[402px] md:size-[350px] size-[200px]"
+                className="absolute  md:top-[47%] top-[61%] pointer-events-none lg:w-[475px] lg:h-[402px] md:size-[350px] size-[170px]"
                 src="/assets/images/webp/dustbin.webp"
                 alt="dustbin"
             />
