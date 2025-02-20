@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import CustomButton from '@/components/common/CustomButton';
-import { STATS } from '../utils/helper'
+import { COUNT_LIST } from '../utils/helper'
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import CustomHeading from '@/components/common/CustomHeading'
@@ -23,7 +23,7 @@ const KickBox = () => {
                         ref={ref}
                         className="flex max-md:gap-6 max-md:flex-wrap max-md:justify-center max-md:items-center"
                     >
-                        {STATS.map((item, index) => (
+                        {COUNT_LIST.map((item, index) => (
                             <div
                                 key={index}
                                 className={`flex flex-col justify-center items-center ${index === 0 ? "md:mr-[71px]" : index === 1 && "md:mr-[54px]"

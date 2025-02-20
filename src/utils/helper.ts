@@ -16,7 +16,7 @@ export const HEADER_LIST = [
         link: "#contact",
     },
 ];
-export const STATS = [
+export const COUNT_LIST = [
     { value: '+155', label: 'Ideas submitted' },
     { value: '+325', label: 'Active Platform users' },
     { value: '+250', label: 'Community Members' }
