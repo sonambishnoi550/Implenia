@@ -38,6 +38,7 @@ export default {
         "custom-lg": "49px",
         "custom-xl": "76px",
         "custom-2xl": "80px",
+        "custom-3xl": "100px",
       },
       lineHeight: {
         "custom-sm": "21px",
