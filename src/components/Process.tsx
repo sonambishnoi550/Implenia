@@ -46,7 +46,7 @@ const Process: React.FC = () => {
             </div>
           ))}
         </div>
-        <CustomButton text='Start your RedBox!' myClass='!px-9 max-xl:flex mx-auto items-center' />
+        <CustomButton text='Start your RedBox!' myClass='!px-9 !py-3 max-xl:flex mx-auto items-center' />
       </div>
     </div>
   );
