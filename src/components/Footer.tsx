@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Footer = () => {
+    const year = new Date().getFullYear();
     return (
         <div className="bg-black text-white py-10">
             <div className="container mx-auto grid md:grid-cols-3 md:gap-10 gap-6">
@@ -47,7 +48,7 @@ const Footer = () => {
                     </form>
                 </div>
                 <p className=" mt-1 text-sm">
-                    Copyright © 2025 Implenia. Alle Rechte vorbehalten.
+                    Copyright © {year} Implenia. Alle Rechte vorbehalten.
                 </p>
             </div>
 
