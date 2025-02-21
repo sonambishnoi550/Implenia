@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className="bg-black text-white p-10">
-            <div className="container mx-auto grid md:grid-cols-3 gap-10">
+        <div className="bg-black text-white py-10">
+            <div className="container mx-auto grid md:grid-cols-3 md:gap-10 gap-6">
                 <div>
                     <h3 className="font-[900] text-base">Implenia Innovation Hub</h3>
                     <p className="mt-2">Thurgauerstrasse 101A</p>

@@ -15,7 +15,7 @@ const Faq: React.FC = () => {
     };
 
     return (
-        <div className="lg:pt-[128px] lg:pb-[146px] md:py-20 py-12 bg-off-white">
+        <div className="lg:pt-[128px] lg:pb-[130px] md:py-20 py-12 bg-off-white">
             <div className="container max-w-[1140px] mx-auto px-4">
                 <CustomHeading text="FAQs" />
                 <div className="pt-5 max-w-[1080px] mx-auto">
