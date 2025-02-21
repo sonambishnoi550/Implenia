@@ -16,7 +16,7 @@ const Stories: React.FC = () => {
       <div className='lg:pt-[128px] lg:pb-[144px] md:py-20 py-12'>
         <div className="container">
           <CustomHeading text="INTRAPRENEURSHIP STORIES" />
-          <div className="flex flex-wrap xl:justify-between xl:gap-10 gap-6 justify-center pt-[25px] pb-[39px]">
+          <div className="flex flex-wrap xl:justify-between xl:gap-10 gap-6 justify-center pt-4 pb-[39px]">
             {STORIES_DATA.map((story: Story, index: number) => (
               <div key={index} className='border border-black rounded-[28px] xl:max-w-[323px] md:max-w-[308px] max-w-[278px]'>
                 <Image className='pointer-events-none' src={story.image} alt={story.alt} width={323} height={207} />

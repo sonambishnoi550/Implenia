@@ -12,10 +12,10 @@ import "swiper/css/pagination";
 const Community = () => {
 
     return (
-        <div id='community' className='xl:py-[130px] lg:py-28 md:py-20 py-12 bg-off-white'>
+        <div id='community' className='xl:py-[120px] lg:py-28 md:py-20 py-12 bg-off-white'>
             <div className="container max-w-[1140px] mx-auto px-4">
                 <CommonHeading text='WHAT OUR COMMUNITY SAYS' />
-                <div className="flex flex-col items-center justify-center xl:pt-[140px] lg:pt-24 md:pt-16 pt-0">
+                <div className="flex flex-col items-center justify-center xl:pt-[85px] lg:pt-24 md:pt-16 pt-0">
                     <Swiper
                         navigation
                         pagination={{ clickable: true }}
@@ -62,7 +62,7 @@ const Community = () => {
 
                     <CommonButton
                         text=" Join the community!"
-                        myClass="max-lg:!mx-auto !flex md:!px-[36px] md:!py-[10.4px] px-[29.5px] md:!mt-[57px] items-center"
+                        myClass="max-lg:!mx-auto !flex md:!px-[29px] md:!py-[10.4px] px-[29.5px] md:!mt-[41px] items-center"
                     />
                 </div>
             </div>

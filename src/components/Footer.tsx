@@ -1,19 +1,20 @@
 import React from 'react'
 import CustomButton from './common/CustomButton';
-
+import { FOOTER_LIST } from '@/utils/helper';
+import Link from 'next/link';
 const Footer = () => {
     const year = new Date().getFullYear();
     return (
-        <div className="bg-black text-white py-10">
+        <div className="bg-black text-white pt-[130px] pb-[65px]">
             <div className="container mx-auto grid md:grid-cols-3 md:gap-10 gap-6">
                 <div>
                     <h3 className="font-[900] text-base">Implenia Innovation Hub</h3>
-                    <p className="mt-2">Thurgauerstrasse 101A</p>
+                    <p>Thurgauerstrasse 101A</p>
                     <p>8152 Glattpark (Opfikon)</p>
                     <p>innovation@implenia.com</p>
 
                     <h3 className="font-bold mt-9">Implenia Kickbox</h3>
-                    <p className="mt-2">
+                    <p>
                         This revised version is based on Adobe Kickbox which is licensed under
                         the Creative Commons Attribution License.
                     </p>
@@ -23,11 +24,13 @@ const Footer = () => {
 
                 <div>
                     <h3 className="font-bold">Sitemap</h3>
-                    <ul className="mt-2 space-y-1">
-                        <li>Home</li>
-                        <li>Projects</li>
-                        <li>Community</li>
-                        <li>Contact</li>
+                    <ul className="mt-2 space-y-1 text-base">
+                        {FOOTER_LIST.map((item) => (
+                            <li key={item.link} id={item.link}>
+                                <Link href={item.link}> {item.label}</Link>
+
+                            </li>
+                        ))}
                     </ul>
                 </div>
 
@@ -37,13 +40,13 @@ const Footer = () => {
                         <input
                             type="email"
                             placeholder="Ihre E-Mail"
-                            className="w-full p-2 bg-white text-black mb-2 max-w-[189px] h-[50px]"
+                            className="w-full p-2 bg-white text-black placeholder:text-black font-light mb-2 max-w-[189px] h-[50px] outline-none"
                         />
                         <textarea
                             placeholder="Ihre Nachricht..."
-                            className="w-full p-2 bg-white text-black h-[121px]"
+                            className="w-full p-2 bg-white text-black placeholder:text-black font-light h-[121px] outline-none"
                         />
-                        <CustomButton text='SENDEN' myClass='!rounded-none flex ml-auto hover:!text-black !px-[17px] !py-2 bg-red text-white !items-center !text-sm !h-[34px]'/>
+                        <CustomButton text='SENDEN' myClass='!rounded-none flex ml-auto hover:!text-black !px-[17px] bg-red text-white !items-center !text-sm !h-[34px]'/>
                     </form>
                 </div>
                 <p className=" mt-1 text-sm">

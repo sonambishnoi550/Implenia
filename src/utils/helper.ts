@@ -66,19 +66,19 @@ export const STORIES_DATA = [
 ];
 export const SLIDER_DATA = [
     {
-        description: "With innovative and efficient solutions we can surprise our customers and increase our chances of success - I experienced this in many projects. Take the time to be courageous and active with new ideas!",
+        description: "With innovative and efficient solutions we can surprise increase our chances of success - I experienced this in many projects. Take the time to be courageous and active with new ideas!",
         name: "Jens Vollmar",
         role: "Head Division Buildings",
         image: "/assets/images/webp/jens-man.webp"
     },
     {
-        description: "With innovative and efficient solutions we can surprise our customers and increase our chances of success - I experienced this in many projects. Take the time to be courageous and active with new ideas!",
+        description: "With innovative and efficient solutions we can surprise increase our chances of success - I experienced this in many projects. Take the time to be courageous and active with new ideas!",
         name: "Jens Vollmar",
         role: "Head Division Buildings",
         image: "/assets/images/webp/jens-man.webp"
     },
     {
-        description: "With innovative and efficient solutions we can surprise our customers and increase our chances of success - I experienced this in many projects. Take the time to be courageous and active with new ideas!",
+        description: "With innovative and efficient solutions we can surprise increase our chances of success - I experienced this in many projects. Take the time to be courageous and active with new ideas!",
         name: "Jens Vollmar",
         role: "Head Division Buildings",
         image: "/assets/images/webp/jens-man.webp"
@@ -113,5 +113,11 @@ export const ACCORDION_DATA = [
         heading: "How do I get a GoldBox?",
         description: `You are free to submit any idea related to Implenia’s business activities, customers or internal processes. Of course we look especially for new and creative ideas and your fresh perspective on the future of construction and real estate..`,
     },
+];
+export const FOOTER_LIST = [
+    { link: "#home", label: "Home" },
+    { link: "#projects", label: "Projects" },
+    { link: "#community", label: "Community" },
+    { link: "#contact", label: "Contact" },
 ];
 

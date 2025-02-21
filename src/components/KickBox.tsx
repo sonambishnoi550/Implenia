@@ -15,6 +15,13 @@ const KickBox: React.FC = () => {
         triggerOnce: true,
         onChange: (inView) => setCount(inView),
     });
+    const getCountEndValue = (count: boolean, index: number) => {
+        if (!count) return 0;
+
+        const values = [155, 325, 250];
+        return values[index] || 0;
+    };
+
 
     return (
         <div id='story' className='lg:pt-[134px] lg:pb-[128px] md:py-20 py-12'>
@@ -23,7 +30,7 @@ const KickBox: React.FC = () => {
                 <p className='max-w-[1090px] text-left font-light md:text-custom-sm text-base leading-custom2Sm lg:pt-4 pt-2 text-light-black/70 max-xl:text-center'>
                     Since 2019, our Kickbox Intrapreneurship Program has been inspiring employees across all divisions to turn their ideas into impactful solutions. From validating ideas (RedBox) to piloting projects (BlueBox) and driving implementation (GoldBox), Kickbox provides the tools and support to shape the future of Implenia. Become an intrapreneur yourself and bring your idea to life!
                 </p>
-                <div className="flex flex-wrap max-xl:justify-center justify-between xl:gap-[92px] md:gap-[67px] gap-[35px] pt-10 items-center">
+                <div className="flex flex-wrap max-xl:justify-center justify-between xl:gap-[92px] md:gap-[67px] gap-[35px] pt-8 items-center">
                     <div
                         ref={ref}
                         className="flex max-md:gap-6 max-md:flex-wrap max-md:justify-center max-md:items-center"
@@ -37,15 +44,7 @@ const KickBox: React.FC = () => {
                                     <span className="text-inherit relative -top-[5px]">+</span>
                                     <CountUp
                                         start={0}
-                                        end={
-                                            count && index === 0
-                                                ? 155
-                                                : count && index === 1
-                                                    ? 325
-                                                    : count && index === 2
-                                                        ? 250
-                                                        : 0
-                                        }
+                                        end={getCountEndValue(count, index)}
                                         duration={3}
                                     />
                                 </h3>

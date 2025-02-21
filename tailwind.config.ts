@@ -47,7 +47,7 @@ export default {
         "custom-3sm": "40.22px",
         "custom-xsm": "44px",
         "custom-md": "48px",
-        "custom-2md": "60px",
+        "custom-2md": "61.59px",
         "custom-lg": "80px"
       }
     },

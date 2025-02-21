@@ -14,14 +14,14 @@ interface ProcessPhase {
 
 const Process: React.FC = () => {
   return (
-    <div className='lg:pt-[129px] lg:pb-[144px] md:py-20 py-12'>
+    <div id='contact' className='lg:pt-[129px] lg:pb-[144px] md:py-20 py-12'>
       <div className="container max-w-[1140px] mx-auto">
         <CustomHeading text="KICKBOX PROCESS" />
         <p className='font-light text-custom-sm leading-custom-2sm text-light-black/70 max-w-[1090px] tracking-tighter pt-[17px]'>
           The Kickbox program at Implenia guides participants through three key phases to turn their ideas into impactful solutions:
           1. RedBox for validation, 2. BlueBox for piloting, and 3. GoldBox for implementation. To progress through each phase, you’ll work to continuously optimize your idea and demonstrate its potential to internal Implenia sponsors.
         </p>
-        <div className="flex flex-wrap lg:justify-between justify-center max-lg:gap-6 max-md:gap-4 pt-12 pb-[39px]">
+        <div className="flex flex-wrap lg:justify-between justify-center max-lg:gap-6 max-md:gap-4 pt-14 pb-[39px]">
           {PROCESS_LIST.map((phase: ProcessPhase, index: number) => (
             <div key={index} className=''>
               <img className='max-w-[227px] mx-auto' src={phase.image} alt={phase.title?.toLowerCase() || "process image"} />

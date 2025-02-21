@@ -13,11 +13,11 @@ const Hero = () => {
             style={{ backgroundImage: `url(/assets/images/webp/hero-bg.webp)` }}
         >
             <Header />
-            <Image className="absolute  lg:top-[44%] md:top-[38%] top-[58%] pointer-events-none md:size-[450px] size-[170px]"
+            <Image className="absolute  lg:top-[44%] md:top-[38%] top-[58%] pointer-events-none md:size-[410px] size-[170px]"
                 src="/assets/images/webp/dustbin.webp"
                 alt="dustbin" width={430} height={350} />
             <div className="container max-w-[1140px] mx-auto">
-                <div className="flex flex-col max-xl:justify-center max-xl:items-center lg:pt-[197px] md:pt-[120px] pt-[67px] xl:pl-14 relative z-20">
+                <div className="flex flex-col max-xl:justify-center max-xl:items-center lg:pt-[178px] md:pt-[120px] pt-[67px] xl:pl-6 relative z-20">
                     <p
                         className="font-bold max-sm:pt-5 text-custom-sm [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)] text-white text-left"
                     >
@@ -31,7 +31,7 @@ const Hero = () => {
                 </div>
                 <CustomButton
                     text="Bring your idea to life!"
-                    myClass="!mt-[25px] md:!mb-[120px] !ml-[52px] !border-white max-xl:!flex max-xl:!mx-auto !text-white hover:!bg-white hover:!text-black !px-[47px] md:h-[67px] !items-center max-sm:!px-5"
+                    myClass="!mt-[25px] md:!mb-[120px] !ml-[28px] !border-white max-xl:!flex max-xl:!mx-auto !text-white hover:!bg-white hover:!text-black !px-[47px] md:h-[67px] !items-center max-sm:!px-5"
                 />
             </div>
         </div>

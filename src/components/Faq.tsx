@@ -22,7 +22,7 @@ const Faq: React.FC = () => {
                     {ACCORDION_DATA.map((item: AccordionItem, index: number) => (
                         <div
                             key={index}
-                            className="relative mb-4 pb-[14px] border-b-2 border-gray"
+                            className="relative mb-4 pb-[14px] border-b border-gray"
                         >
                             <button
                                 onClick={() => toggleAccordion(index)}
