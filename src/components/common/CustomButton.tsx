@@ -11,7 +11,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({ text, myClass = "", customO
     return (
         <button
             onClick={customOnClick}
-            className={`md:text-custom-sm text-lg whitespace-nowrap font-bold md:px-[46px] px-5 h-[56px] border-2 border-red rounded-[47px] hover:bg-red hover:text-white text-red transition-all duration-500  ${myClass}
+            className={`md:text-custom-sm text-lg whitespace-nowrap font-bold md:px-[46px] px-5 md:py-[18px] py-3 border-2 border-red rounded-[47px] hover:bg-red hover:text-white text-red transition-all duration-500  ${myClass}
 `}
         >
             {text}

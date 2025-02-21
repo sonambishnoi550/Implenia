@@ -36,7 +36,7 @@ const Community = () => {
                         {SLIDER_DATA.map((testimonial, index) => (
                             <SwiperSlide key={index} className="flex flex-col items-center max-lg:pb-9">
                                 <span className="text-orange md:text-custom-3xl text-custom-xl">&ldquo;</span>
-                                <p className="md:text-custom-2sm text-2xl font-semibold leading-custom-3sm text-black -mt-12 max-w-[788px] text-center mx-auto">
+                                <p className="md:text-custom-2sm text-xl font-semibold md:leading-custom-3sm text-black -mt-12 max-w-[788px] text-center mx-auto">
                                     {testimonial.description}
                                 </p>
                                 <div className="flex items-center mt-10 md:ml-[236px] ml-10">

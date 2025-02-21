@@ -32,8 +32,3 @@ body,html{
     }
 
 }
-@media (max-width: 639.98px) {
-    .hero-bg-mobile {
-        background-position: right -100px center;
-    }
-}

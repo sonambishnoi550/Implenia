@@ -13,7 +13,7 @@ interface Story {
 const Stories: React.FC = () => {
   return (
     <div>
-      <div className='lg:pt-[128px] lg:pb-[144px] md:py-20 py-12'>
+      <div id='story' className='lg:pt-[128px] lg:pb-[144px] md:py-20 py-12'>
         <div className="container">
           <CustomHeading text="INTRAPRENEURSHIP STORIES" />
           <div className="flex flex-wrap xl:justify-between xl:gap-10 gap-6 justify-center pt-4 pb-[39px]">
@@ -26,7 +26,7 @@ const Stories: React.FC = () => {
               </div>
             ))}
           </div>
-          <CustomButton text='More Stories' myClass='md:!px-[68px] !px-10 max-xl:flex mx-auto items-center' />
+          <CustomButton text='More Stories' myClass='md:!px-[68px] !px-10  max-xl:flex mx-auto items-center' />
         </div>
       </div>
     </div>

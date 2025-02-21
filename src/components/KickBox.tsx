@@ -24,10 +24,10 @@ const KickBox: React.FC = () => {
 
 
     return (
-        <div id='story' className='lg:pt-[134px] lg:pb-[128px] md:py-20 py-12'>
+        <div className='lg:pt-[134px] lg:pb-[128px] md:py-20 py-12'>
             <div className="container max-w-[1140px] mx-auto px-4">
                 <CustomHeading text="IMPLENIA KICKBOX" />
-                <p className='max-w-[1090px] text-left font-light md:text-custom-sm text-base leading-custom2Sm lg:pt-4 pt-2 text-light-black/70 max-xl:text-center'>
+                <p className='max-w-[1090px] text-left font-light md:text-custom-sm text-base -tracking-custom-xmd leading-custom-2sm lg:pt-4 pt-2 text-light-black/70 max-xl:text-center'>
                     Since 2019, our Kickbox Intrapreneurship Program has been inspiring employees across all divisions to turn their ideas into impactful solutions. From validating ideas (RedBox) to piloting projects (BlueBox) and driving implementation (GoldBox), Kickbox provides the tools and support to shape the future of Implenia. Become an intrapreneur yourself and bring your idea to life!
                 </p>
                 <div className="flex flex-wrap max-xl:justify-center justify-between xl:gap-[92px] md:gap-[67px] gap-[35px] pt-8 items-center">
@@ -40,7 +40,7 @@ const KickBox: React.FC = () => {
                                 key={index}
                                 className={`flex flex-col justify-center items-center ${index === 0 ? "md:mr-[71px]" : index === 1 && "md:mr-[54px]"}`}
                             >
-                                <h3 className="lg:text-custom-2xl md:text-7xl text-5xl font-normal text-dark-orange max-sm:text-center tracking-[-0.66px] flex items-center">
+                                <h3 className="lg:text-custom-2xl md:text-7xl text-5xl font-normal text-dark-orange max-sm:text-center tracking-custom-md flex items-center">
                                     <span className="text-inherit relative -top-[5px]">+</span>
                                     <CountUp
                                         start={0}
@@ -54,7 +54,7 @@ const KickBox: React.FC = () => {
                             </div>
                         ))}
                     </div>
-                    <CustomButton text="Submit Your idea!" />
+                    <CustomButton text="Submit Your idea!" myClass='!px-[43px] !py-3' />
                 </div>
             </div>
         </div>

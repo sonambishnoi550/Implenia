@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Footer = () => {
     const year = new Date().getFullYear();
     return (
-        <div className="bg-black text-white pt-[130px] pb-[65px]">
+        <div id='contact' className="bg-black text-white lg:pt-[130px] md:pb-[65px] md:pt-20 py-12">
             <div className="container mx-auto grid md:grid-cols-3 md:gap-10 gap-6">
                 <div>
                     <h3 className="font-[900] text-base">Implenia Innovation Hub</h3>
@@ -13,7 +13,7 @@ const Footer = () => {
                     <p>8152 Glattpark (Opfikon)</p>
                     <p>innovation@implenia.com</p>
 
-                    <h3 className="font-bold mt-9">Implenia Kickbox</h3>
+                    <h3 className="font-[900] mt-9">Implenia Kickbox</h3>
                     <p>
                         This revised version is based on Adobe Kickbox which is licensed under
                         the Creative Commons Attribution License.
@@ -23,8 +23,8 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <h3 className="font-bold">Sitemap</h3>
-                    <ul className="mt-2 space-y-1 text-base">
+                    <h3 className="font-[900]">Sitemap</h3>
+                    <ul className="mt-4 text-base">
                         {FOOTER_LIST.map((item) => (
                             <li key={item.link} id={item.link}>
                                 <Link href={item.link}> {item.label}</Link>

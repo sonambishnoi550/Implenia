@@ -49,7 +49,12 @@ export default {
         "custom-md": "48px",
         "custom-2md": "61.59px",
         "custom-lg": "80px"
-      }
+      },
+      letterSpacing: {
+        "custom-xmd": "0.28px",
+        "custom-sm": "0.35px",
+        "custom-md": "0.66px"
+      },
     },
   },
   plugins: [],
