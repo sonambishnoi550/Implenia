@@ -31,15 +31,15 @@ const Footer = () => {
 
                 <div>
                     <h3 className="font-bold">Contact</h3>
-                    <form className="mt-4">
+                    <form className="mt-4 max-w-[273px]">
                         <input
                             type="email"
                             placeholder="Ihre E-Mail"
-                            className="w-full p-2 bg-white text-black mb-2"
+                            className="w-full p-2 bg-white text-black mb-2 max-w-[189px] h-[50px]"
                         />
                         <textarea
                             placeholder="Ihre Nachricht..."
-                            className="w-full p-2 bg-white text-black h-24"
+                            className="w-full p-2 bg-white text-black h-[121px]"
                         />
                         <button className="bg-red text-white flex ml-auto px-6 py-2">
                             SENDEN
@@ -47,7 +47,7 @@ const Footer = () => {
                     </form>
                 </div>
                 <p className=" mt-1 text-sm">
-                    Copyright © 2024 Implenia. Alle Rechte vorbehalten.
+                    Copyright © 2025 Implenia. Alle Rechte vorbehalten.
                 </p>
             </div>
 
