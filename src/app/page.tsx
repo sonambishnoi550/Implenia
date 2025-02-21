@@ -9,6 +9,7 @@ import Process from '@/components/Process'
 import Stories from '@/components/Stories'
 import Community from '@/components/Community'
 import Faq from '@/components/Faq'
+import Footer from '@/components/Footer'
 
 const page = () => {
   useEffect(() => {
@@ -24,7 +25,8 @@ const page = () => {
       <Process />
       <Community/>
       <Stories />
-      <Faq/>
+      <Faq />
+      <Footer/>
     </>
   )
 }
