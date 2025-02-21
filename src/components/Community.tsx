@@ -35,8 +35,8 @@ const Community = () => {
                     >
                         {SLIDER_DATA.map((testimonial, index) => (
                             <SwiperSlide key={index} className="flex flex-col items-center max-lg:pb-9">
-                                <span className="text-orange md:text-custom-3xl text-custom-md">&ldquo;</span>
-                                <p className="md:text-custom-2sm text-2xl font-medium text-black leading-customXmd -mt-12 max-w-[788px] text-center mx-auto ">
+                                <span className="text-orange md:text-custom-3xl text-custom-xl">&ldquo;</span>
+                                <p className="md:text-custom-2sm text-2xl font-semibold leading-custom-3sm text-black -mt-12 max-w-[788px] text-center mx-auto">
                                     {testimonial.description}
                                 </p>
                                 <div className="flex items-center mt-10 md:ml-[236px] ml-10">
@@ -62,7 +62,7 @@ const Community = () => {
 
                     <CommonButton
                         text=" Join the community!"
-                        myClass="max-lg:!mx-auto !flex md:!px-[36px] md:!py-[10.4px] px-[29.5px] md:!mt-[57px]"
+                        myClass="max-lg:!mx-auto !flex md:!px-[36px] md:!py-[10.4px] px-[29.5px] md:!mt-[57px] items-center"
                     />
                 </div>
             </div>
