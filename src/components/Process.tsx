@@ -37,8 +37,8 @@ const Process: React.FC = () => {
                   {phase.stage}
                 </p>
                 <h4 className='font-semibold text-custom-xmd leading-custom-xsm pb-4'>{phase.title}</h4>
-                <p className='font-light md:text-custom-sm text-base leading-custom-2sm text-light-black sm:max-w-[277px] tracking-tighter'>{phase.description}</p>
-                <p className='font-light md:text-custom-sm text-base leading-custom-2sm text-light-black sm:max-w-[277px] md:pt-6 pt-3'>
+                <p className='font-light md:text-custom-sm text-base leading-custom-2sm text-light-black/70 sm:max-w-[277px] tracking-tighter'>{phase.description}</p>
+                <p className='font-light md:text-custom-sm text-base leading-custom-2sm text-light-black/70 sm:max-w-[277px] md:pt-6 pt-3'>
                   {phase.duration}<br />
                   {phase.budget}
                 </p>

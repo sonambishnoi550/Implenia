@@ -1,4 +1,5 @@
 import React from 'react'
+import CustomButton from './common/CustomButton';
 
 const Footer = () => {
     const year = new Date().getFullYear();
@@ -42,9 +43,7 @@ const Footer = () => {
                             placeholder="Ihre Nachricht..."
                             className="w-full p-2 bg-white text-black h-[121px]"
                         />
-                        <button className="bg-red text-white flex ml-auto px-6 py-2">
-                            SENDEN
-                        </button>
+                        <CustomButton text='SENDEN' myClass='!rounded-none flex ml-auto hover:!text-black !px-[17px] !py-2 bg-red text-white !items-center !text-sm !h-[34px]'/>
                     </form>
                 </div>
                 <p className=" mt-1 text-sm">
