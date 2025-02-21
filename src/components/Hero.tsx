@@ -24,7 +24,7 @@ const Hero = () => {
                         Shape the future of Implenia!
                     </p>
                     <h1
-                        className="relative lg:text-custom-xl md:text-5xl text-custom-2md sm:leading-custom-2md tracking-custom-sm leading-custom-md [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)] max-xl:text-center font-bold pt-[15px] text-white lg:max-w-[700px] max-w-[450px]"
+                        className="relative lg:text-custom-xl md:text-5xl text-custom-2md lg:leading-custom-lg sm:leading-custom-2md tracking-custom-sm leading-custom-md [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)] max-xl:text-center font-bold pt-[15px] text-white lg:max-w-[700px] max-w-[450px]"
                     >
                         WE ARE LOOKING FOR YOUR IDEA
                     </h1>
