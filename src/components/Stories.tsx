@@ -26,7 +26,7 @@ const Stories: React.FC = () => {
               </div>
             ))}
           </div>
-          <CustomButton text='More Stories' myClass='md:!px-[68px] !px-10  max-xl:flex mx-auto items-center' />
+          <CustomButton text='More Stories' myClass='md:!px-[68px] !px-10 md:!py-3  max-xl:flex mx-auto items-center' />
         </div>
       </div>
     </div>

@@ -62,7 +62,7 @@ const Community = () => {
 
                     <CommonButton
                         text=" Join the community!"
-                        myClass="max-lg:!mx-auto !flex md:!px-[29px] md:!py-[10.4px] px-[29.5px] md:!mt-[41px] items-center"
+                        myClass="max-lg:!mx-auto !flex md:!px-[29px] md:!py-3 px-[29.5px] md:!mt-[41px] items-center"
                     />
                 </div>
             </div>
