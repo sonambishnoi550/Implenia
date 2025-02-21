@@ -31,7 +31,7 @@ const Hero = () => {
                 </div>
                 <CustomButton
                     text="Bring your idea to life!"
-                    myClass="!mt-[25px] md:!mb-[120px] !ml-9 !border-white max-xl:!flex max-xl:!mx-auto !text-white hover:!bg-white hover:!text-black !px-[43px] !items-center max-sm:!px-5 z-20 relative"
+                    myClass="!mt-[25px] md:!mb-[120px] !ml-9 !border-white max-xl:!flex max-xl:!mx-auto !text-white hover:!bg-white hover:!text-black !px-[43px] !items-center max-sm:!px-5"
                 />
             </div>
         </div>
