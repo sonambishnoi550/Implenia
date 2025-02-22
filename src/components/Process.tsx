@@ -25,7 +25,7 @@ const Process: React.FC = () => {
           {PROCESS_LIST.map((phase: ProcessPhase, index: number) => (
             <div key={index} className=''>
               <img className='max-w-[227px] mx-auto h-[92px]' src={phase.image} alt={phase.title?.toLowerCase() || "process image"} />
-              <div className='border border-black xl:h-[457px] rounded-[28px] md:mt-[39px] mt-5 pt-[18px] pb-[21px] xl:pl-[27px] md:px-5 px-2 md:pr-[19px]'>
+              <div className='border border-black max-h-[457px] max-md:max-h-[334px] rounded-[28px] md:mt-[39px] mt-5 pt-[18px] pb-[21px] xl:pl-[27px] md:px-5 px-2 md:pr-[19px] flex flex-col'>
                 <p
                   className={`${index === 0
                     ? "text-red"
@@ -37,7 +37,9 @@ const Process: React.FC = () => {
                   {phase.stage}
                 </p>
                 <h4 className='font-semibold text-custom-xmd leading-custom-xsm pb-4'>{phase.title}</h4>
-                <p className='font-light md:text-custom-sm text-base leading-custom-2sm text-light-black sm:max-w-[277px] tracking-tighter'>{phase.description}</p>
+                <div className='overflow-auto flex-grow scrollbar-hide'>
+                  <p className='font-light md:text-custom-sm text-base leading-custom-2sm text-light-black sm:max-w-[277px] tracking-tighter'>{phase.description}</p>
+               </div>
                 <p className='font-light md:text-custom-sm text-base leading-custom-2sm text-light-black sm:max-w-[277px] md:pt-6 pt-3'>
                   {phase.duration}<br />
                   {phase.budget}
