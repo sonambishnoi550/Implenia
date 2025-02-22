@@ -17,7 +17,7 @@ const Process: React.FC = () => {
     <div className='lg:pt-[129px] lg:pb-[144px] md:py-20 py-12'>
       <div className="container max-w-[1172px] mx-auto">
         <CustomHeading text="KICKBOX PROCESS" />
-        <p className='font-light text-custom-sm leading-custom-2sm text-light-black -tracking-custom-xmd pt-[17px] max-xl:text-center'>
+        <p className='font-light text-custom-sm leading-custom-2sm text-light-black -tracking-custom-lg pt-[17px] max-xl:text-center'>
           The Kickbox program at Implenia guides participants through three key phases to turn their ideas into impactful solutions:
           1. RedBox for validation, 2. BlueBox for piloting, and 3. GoldBox for implementation. To progress through each phase, you’ll work to continuously optimize your idea and demonstrate its potential to internal Implenia sponsors.
         </p>

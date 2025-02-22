@@ -27,7 +27,7 @@ const KickBox: React.FC = () => {
         <div className='lg:pt-[134px] lg:pb-[128px] md:py-20 py-12'>
             <div className="container max-w-[1140px] mx-auto">
                 <CustomHeading text="IMPLENIA KICKBOX" />
-                <p className='text-left font-light md:text-custom-sm text-base -tracking-custom-xmd leading-custom-2sm lg:pt-4 pt-2 text-light-black max-xl:text-center'>
+                <p className='text-left font-light md:text-custom-sm text-base -tracking-custom-xl leading-custom-2sm lg:pt-4 pt-2 text-light-black max-xl:text-center'>
                     Since 2019, our Kickbox Intrapreneurship Program has been inspiring employees across all divisions to turn their ideas into impactful solutions. From validating ideas (RedBox) to piloting projects (BlueBox) and driving implementation (GoldBox), Kickbox provides the tools and support to shape the future of Implenia. Become an intrapreneur yourself and bring your idea to life!
                 </p>
                 <div className="flex flex-wrap max-xl:justify-center justify-between xl:gap-[92px] md:gap-[67px] gap-[35px] pt-9 items-center">

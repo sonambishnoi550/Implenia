@@ -53,7 +53,9 @@ export default {
       letterSpacing: {
         "custom-xmd": "0.28px",
         "custom-sm": "0.35px",
-        "custom-md": "0.66px"
+        "custom-md": "0.66px",
+        "custom-lg": "0.88px",
+        "custom-xl": "1.08px"
       },
     },
   },
