@@ -15,8 +15,9 @@ const Header = () => {
         setActive(i);
     }
     return (
-        <div id="navbar" className="bg-white z-40 w-full ">
-            <div className="container max-w-[1160px] mx-auto  max-xl:px-[16px] flex items-center justify-between md:py-[18.5px] py-[5px]">
+        <div id="navbar" className="bg-white z-40 w-full shadow-xl
+">
+            <div className="container max-w-[1177px] mx-auto  max-xl:px-[16px] flex items-center justify-between md:py-[18.5px] py-[5px]">
                 <Link href="/">
                     <Image src="/assets/images/webp/logo.webp"
                         alt="logo"
@@ -27,7 +28,7 @@ const Header = () => {
                         <li key={i}>
                             <Link onClick={() => clickHandler(i)}
                                 href={item.link}
-                                className={`font-bold pb-[3px] text-black text-base hover:text-dark-orange transition-all duration-300  ${Active === i ? "text-dark-orange" : ""
+                                className={`font-bold pb-[3px] text-black tracking-custom-xmd text-base hover:text-dark-orange transition-all duration-300  ${Active === i ? "text-dark-orange" : ""
                                     }`}
                             >
                                 {item.title}

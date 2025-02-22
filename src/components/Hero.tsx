@@ -17,7 +17,7 @@ const Hero = () => {
                 src="/assets/images/webp/dustbin.webp"
                 alt="dustbin" width={430} height={350} />
             <div className="container max-w-[1140px] mx-auto">
-                <div className="flex flex-col max-xl:justify-center max-xl:items-center lg:pt-[178px] md:pt-[120px] pt-[67px] xl:pl-9 relative z-20">
+                <div className="flex flex-col max-xl:justify-center max-xl:items-center lg:pt-[197px] md:pt-[120px] pt-[67px] xl:pl-9 relative z-20">
                     <p
                         className="font-bold max-sm:pt-5 text-custom-sm leading-custom-sm [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)] text-white text-left"
                     >

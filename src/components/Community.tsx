@@ -45,7 +45,7 @@ const Community = () => {
                                         alt={testimonial.name}
                                         width={80}
                                         height={80}
-                                        className="rounded-full max-sm:size-16"
+                                        className="rounded-full max-sm:size-16 size-20"
                                     />
                                     <div className="ml-4 text-left">
                                         <p className="text-dark-grey md:text-custom-sm text-base leading-custom-sm">

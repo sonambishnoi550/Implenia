@@ -18,14 +18,14 @@ const Stories: React.FC = () => {
           <div className="flex flex-wrap xl:justify-between xl:gap-10 gap-6 justify-center pt-4 pb-[39px]">
             {STORIES_DATA.map((story: Story, index: number) => (
               <div key={index} className='border border-black rounded-[28px] xl:max-w-[323px] md:max-w-[308px] max-w-[278px]'>
-                <Image className='pointer-events-none' src={story.image} alt={story.alt} width={323} height={207} />
-                <h4 className='font-semibold md:text-custom-xmd text-3xl md:leading-custom-xsm leading-8 md:pl-[26px] pl-4 md:pt-[51px] pt-8 md:pb-[61px] pb-10'>
+                <Image className='pointer-events-none xl:max-w-[323px] xl:h-[207px]' src={story.image} alt={story.alt} width={323} height={207} />
+                <h4 className='font-semibold md:text-custom-xmd text-3xl -tracking-custom-md md:leading-custom-xsm leading-8 md:pl-[26px] pl-4 md:pt-[51px] pt-8 md:pb-[61px] pb-10'>
                   {story.title}
                 </h4>
               </div>
             ))}
           </div>
-          <CustomButton text='More Stories' myClass='md:!px-[68px] !px-10 md:!py-3  max-xl:flex mx-auto items-center' />
+          <CustomButton text='More Stories' myClass='md:!px-[68px] md:!px-10 md:!py-3 !px-6 !py-2 max-xl:flex mx-auto items-center' />
         </div>
       </div>
   );
