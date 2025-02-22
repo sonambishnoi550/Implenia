@@ -15,7 +15,7 @@ interface ProcessPhase {
 const Process: React.FC = () => {
   return (
     <div className='lg:pt-[129px] lg:pb-[144px] md:py-20 py-12'>
-      <div className="container max-w-[1140px] mx-auto">
+      <div className="container max-w-[1172px] mx-auto">
         <CustomHeading text="KICKBOX PROCESS" />
         <p className='font-light text-custom-sm leading-custom-2sm text-light-black -tracking-custom-xmd pt-[17px] max-xl:text-center'>
           The Kickbox program at Implenia guides participants through three key phases to turn their ideas into impactful solutions:

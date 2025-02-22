@@ -10,7 +10,7 @@ interface HeaderItem {
 
 const Header = () => {
     const [open, setOpen] = useState<boolean>(false);
-    const [Active, setActive] = useState<number | null>(null);
+    const [Active, setActive] = useState<number | null>(0);
     function clickHandler(i: number) {
         setActive(i);
     }
